@@ -1,0 +1,28 @@
+ul {
+    list-style-type: none;
+    margin-top: -21px;
+    padding: 0;
+    width: 150px;
+    background-color: #81B622;
+    position: fixed;
+    height: 100%;
+}
+
+li a {
+    display: block;
+    color: #ECF87F;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-bottom: 2px solid black;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.tab {
+    margin-left: 40px;
+    display: block;
+    
+}
