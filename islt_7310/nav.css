@@ -1,21 +1,22 @@
 ul {
     list-style-type: none;
-    margin-top: -20px;
+    margin-top: -17px;
     padding: 0;
     width: 210px;
     background-color: #81B622;
     position: fixed;
-    height: 105%;
+    height: 100%;
+    border: 2px solid black;
 }
 
 li a {
     display: block;
     color: #ECF87F;
-    padding: 8px 16px;
+    margin-top: 20px;
     text-decoration: none;
     border-bottom: 2px solid black;
     font-size: 20px;
-    font-family: sans-serif;
+    font-family: sans-serif;   
 }
 
 body {
@@ -32,6 +33,7 @@ nav ul {
     list-style-type: none;
 }
 
+
 nav > ul li {
     position: relative;
     text-align: center;
@@ -40,25 +42,31 @@ nav > ul li {
     font-size: 20px;
 }
 
-nav ul li {
-    margin-bottom: 2px;
-}
-
 nav ul > li ul {
-    position: absolute;
-    margin-top: -44px;
     margin-left: 100%;
     display: none;
-    padding: 8px 16px;
-    height: auto;
-    border-bottom: 2px solid black;
+    position: relative;
+    height: 100%;
+    margin-top: -68px;
+    padding-bottom: 40px; 
 }
 
 nav > ul > li:hover > ul {
     display: block;
+    border: 2px solid black;
+    margin-bottom: -40px;
 }
 
 nav a {
     text-decoration: none;
     display: block;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+ul li ul {
+    position: relative;
+    height: 100%;
+    color: #ECF87F;
+    border: 2px solid black;
 }
