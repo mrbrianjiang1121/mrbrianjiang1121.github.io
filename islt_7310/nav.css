@@ -29,11 +29,6 @@ body {
     display: block;
 }
 
-nav ul {
-    list-style-type: none;
-}
-
-
 nav > ul li {
     position: relative;
     text-align: center;
@@ -58,7 +53,6 @@ nav > ul > li:hover > ul {
 }
 
 nav a {
-    text-decoration: none;
     display: block;
     margin-top: 20px;
     padding-bottom: 20px;
