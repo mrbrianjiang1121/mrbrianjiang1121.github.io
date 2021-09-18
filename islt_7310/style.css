@@ -31,3 +31,12 @@ div {
     padding-right: 200px;
     margin-left: 60px;
 }
+
+a.resume {
+    text-align: center;
+    padding-left: 650px;
+}
+
+blockquote {
+    text-align: center;
+}
