@@ -11,4 +11,19 @@ h2 {
 
 p {
     text-align: center;
+    text-indent: 170px;
+    display: block;
+    margin: 50px;
+    padding: 0;
+}
+
+.firstStyle::first-letter {
+    font-size: 200%;
+    color: #009900;
+}
+
+div {
+    padding-left: 130px;
+    padding-right: 200px;
+    margin-left: 60px;
 }
