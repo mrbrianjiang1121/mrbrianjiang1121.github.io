@@ -40,3 +40,9 @@ a.resume {
 blockquote {
     text-align: center;
 }
+
+    
+.tab {
+    margin-left: 40px;
+    display: block;
+}
