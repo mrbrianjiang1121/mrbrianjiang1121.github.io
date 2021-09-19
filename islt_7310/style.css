@@ -34,12 +34,11 @@ div {
     margin-left: 60px;
 }
 
-a.resume {
+.resume {
     text-align: center;
     padding-left: 663px;
     font-family: sans-serif;
-        color: #ECF87F;
-
+    color: #ECF87F;
 }
 
 blockquote {
