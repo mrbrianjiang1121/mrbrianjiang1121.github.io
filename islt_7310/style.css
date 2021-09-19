@@ -36,7 +36,10 @@ div {
 
 a.resume {
     text-align: center;
-    padding-left: 650px;
+    padding-left: 663px;
+    font-family: sans-serif;
+        color: #ECF87F;
+
 }
 
 blockquote {
