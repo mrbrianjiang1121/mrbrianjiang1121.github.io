@@ -4,7 +4,7 @@ ul {
     padding: 0;
     width: 210px;
     background-color: #81B622;
-    position: absolute;
+    position: fixed;
     height: 100%;
     border: 2px solid black;
 }
@@ -22,6 +22,7 @@ li a {
 body {
     margin: 0;
     padding: 0;
+    
 }
 
 nav > ul li {
