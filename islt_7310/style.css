@@ -2,12 +2,14 @@ h1 {
     text-align: center;
     color: #ECF87F;
     font-family: monospace;
+    margin-left: -1000px;
 }
 
 h2 {
     text-align: center;
     font-family: sans-serif;
     color: #3D550C;
+    padding-left: 20px;
 }
 
 h3 {
@@ -43,9 +45,15 @@ div {
 
 blockquote {
     text-align: center;
+    margin-top: 900px;
+    margin-left: -600px;
 }
 
-    
+footer {
+    padding-left: 160px;
+    margin-bottom: 50px;
+}
+
 .tab {
     margin-left: 40px;
     display: block;
@@ -57,4 +65,19 @@ body {
 
 .indent {
     text-indent: 2em;
+}
+
+
+.wrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+    height: 720px;
+}
+
+@media screen and (max-width:850px) {
+    main {
+        background-color: #59981A;
+    }
 }
