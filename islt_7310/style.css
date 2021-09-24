@@ -2,14 +2,14 @@ h1 {
     text-align: center;
     color: #ECF87F;
     font-family: monospace;
-    margin-left: -1000px;
+    margin-left: -950px;
 }
 
 h2 {
     text-align: center;
     font-family: sans-serif;
     color: #3D550C;
-    padding-left: 20px;
+    padding-left: 100px;
 }
 
 h3 {
@@ -20,7 +20,6 @@ h3 {
 p {
     text-align: center;
     display: block;
-    margin: 50px;
     padding: 0;
     color: #ECF87F;
 }
@@ -38,20 +37,20 @@ div {
 
 .resume {
     text-align: center;
-    padding-left: 663px;
+    padding-left: 420px;
     font-family: sans-serif;
     color: #ECF87F;
 }
 
 blockquote {
     text-align: center;
-    margin-top: 900px;
-    margin-left: -600px;
+    margin-top: 10px;
+    margin-left: 00px;
 }
 
 footer {
-    padding-left: 160px;
-    margin-bottom: 50px;
+    margin-left: -1000px;
+    margin-top: 60px;
 }
 
 .tab {
@@ -76,8 +75,27 @@ body {
     height: 720px;
 }
 
-@media screen and (max-width:850px) {
+img {
+    width: 500px; 
+    height: 400px; 
+}
+
+iframe {
+    margin-top: 850px;
+    margin-left: -720px;
+}
+
+@media screen and (max-width:1000px) {
     main {
-        background-color: #59981A;
+        background-color: blue;
+    }
+    body {
+        background-color: blue;
+    }
+    footer {
+        background-color: blue;
+    }
+    h2 {
+        color: #FFFF;
     }
 }
