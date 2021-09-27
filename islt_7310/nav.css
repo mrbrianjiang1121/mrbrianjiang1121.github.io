@@ -1,7 +1,3 @@
-/*
-    Ubuntu Font: https://design.ubuntu.com/font/
-*/
-
 ul {
     list-style-type: none;
     margin-left: -190px;
@@ -57,11 +53,23 @@ nav a {
     padding-bottom: 20px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
     ul {
         width: 100%;
-        height: 46%;
+        height: 45%;
         position: fixed;
+    }
+    nav ul > li ul {
+        display: none;
+        position: absolute;
+        height: 420%;
+        z-index: 1;
+        width: 100%;
+        margin-top: -1px;
+        right: 1px;
+    }
+    nav > ul > li:hover > ul {
+        display: block;
     }
 }
 
