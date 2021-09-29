@@ -85,7 +85,7 @@ img {
 }
 
 .aboutme {
-    height: 50%;
+    height: 45%;
 }
 
 iframe {
@@ -144,8 +144,8 @@ iframe {
         margin-left: -50px;
     }
     .aboutme {
-        margin-top: -150px;
-        margin-top: -0px;
+        width: 100%;
+        height: 35%;
     }
     .icon {
         margin-right: 50px;
@@ -157,10 +157,11 @@ iframe {
         margin-left: -200px;
     }
     .tab {
-        margin-left: -400px;
+        margin-left: -350px;
+        margin-top: -20px;
         display: block;
     }
     .doIT {
-        height: 7%;
+        height: 6%;
     }
 }
