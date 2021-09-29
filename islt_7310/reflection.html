@@ -11,27 +11,30 @@
 <html lang="en-US">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reflection Page</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="nav.css">
 </head>
 <body>
 <div class="wrapper">
-    <nav>
+    <nav id="hamnav">
+        <label for="hamburger">☰</label>
+        <input type="checkbox" id="hamburger">
+        <div class="dropdown" id="hamitems">
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About Me</a></li>
             <li><a href="projects.html">Projects/Experience</a>
                 <ul>
-                    <li><a href="projects1.html">Project/Experience 1</a></li>
+                    <li><a href="#">Project/Experience 1</a></li>
                     <li><a href="#">Project/Experience 2</a></li>
                     <li><a href="#">Project/Experience 3</a></li> 
                 </ul>
             </li>
-            <li><a href="reflection.html">Reflection</a>
-            <li><a href="#contact.html">Contact</a>
+            <li><a href="reflection.html">Reflection</a></li>
+            <li><a href="#contact.html">Contact</a></li>
         </ul>
+        </div>
     </nav>
     <header>
         <h1>Reflection Page</h1>
@@ -50,7 +53,9 @@
         <p class="tab indent">Teaching assistants are needed for each course that is offered at every university. Teaching assistants are given the opportunity to assist students regarding what their questions are with an assignment or topic or if they have any issues with something. They will be able to expand their learning from when they previously took the course before they are asked to assist in that specific course. The more they help, the better they understand the topics that they’ll need to know for the job they want to pursue in. Assisting the students will make them happy about what they are learning about so the students will have the motivation to keep learning about the topics they are interested in.</p>
     </div>
     </main>
-    <footer><p>© Created by Brian Jiang on September 2, 2021 Email: bjiang@mail.missouri.edu</p></footer>
+    <footer><p>
+            <a href="tel:5738818878"><img class="icon transform" src="https://img.icons8.com/fluency/48/000000/iphone.png"/></a>
+            <a href="mailto:bjiang@mail.missouri.edu"><img class="icon2 transform" src="https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/64/000000/external-email-advertising-kiranshastry-lineal-color-kiranshastry-1.png"/></a>© Created by Brian Jiang on September 2, 2021 Email: bjiang@mail.missouri.edu</p></footer>
     </div>
 </body>
 </html>
