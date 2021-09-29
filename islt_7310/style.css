@@ -1,3 +1,9 @@
+/*
+    Mizzou Favicon: https://www.dragonsportsonline.com/missouri-tigers/?sort=newest&page=4
+    Division of IT: https://twitter.com/mudoit
+    Unix Photo: https://www.careersinfosecurity.com/regulator-dont-neglect-physical-security-workstations-a-11047
+    Ubuntu Font: https://design.ubuntu.com/font/
+*/
 h1 {
     text-align: center;
     color: #ECF87F;
@@ -74,8 +80,12 @@ div.wrapper {
 
 img {
     width: 50%; 
-    height: 60%;
+    height: 20%;
     margin-left: 250px;
+}
+
+.aboutme {
+    height: 50%;
 }
 
 iframe {
@@ -131,8 +141,11 @@ iframe {
     }
     img {
         width: 100%;
-        height: 33%;
         margin-left: -50px;
+    }
+    .aboutme {
+        margin-top: -150px;
+        margin-top: -0px;
     }
     .icon {
         margin-right: 50px;
@@ -142,5 +155,12 @@ iframe {
     }
     .resume {
         margin-left: -200px;
+    }
+    .tab {
+        margin-left: -400px;
+        display: block;
+    }
+    .doIT {
+        height: 7%;
     }
 }
