@@ -3,6 +3,7 @@
     Division of IT: https://twitter.com/mudoit
     Unix Photo: https://www.careersinfosecurity.com/regulator-dont-neglect-physical-security-workstations-a-11047
     Ubuntu Font: https://design.ubuntu.com/font/
+    Footer Background: http://practicalplumbingandrooter.com/background-footer/
 */
 h1 {
     text-align: center;
@@ -48,9 +49,9 @@ div {
 
 .resume {
     text-align: center;
-    padding-left: 420px;
     font-family: myCustomFont;
     color: #ECF87F;
+    margin-left: 550px;
 }
 
 blockquote {
@@ -59,8 +60,8 @@ blockquote {
 }
 
 .tab {
-    margin-left: -100px;
     display: block;
+    margin-left: -150px;
 }
 
 body {
@@ -81,16 +82,35 @@ div.wrapper {
 img {
     width: 50%; 
     height: 20%;
-    margin-left: 250px;
 }
 
 .aboutme {
     height: 45%;
+    width: 58%;
+    margin-left: 270px;
+}
+.aboutme2 {
+    height: 45%;
+    width: 58%;
+    margin-left: 150px;
 }
 
 iframe {
     margin-left: 350px;
 }
+
+.wireless {
+    margin-left: 250px;
+}
+
+.unix {
+    margin-left: 250px;
+}
+
+.doIT {
+    margin-left: 250px;
+}
+
 
 @media screen and (max-width: 750px) {
     main {
@@ -99,9 +119,7 @@ iframe {
     body {
         background-color: #00008B;
     }
-    footer {
-        background-color: #00008B;
-    }
+    
     h1 {
         margin-right: -800px; 
     }
@@ -111,17 +129,36 @@ iframe {
     width: 30px;
     height: 30px;
     display: inline-block;
-    margin-right: -250px;
+    margin-left: -1px;
+    margin-bottom: -8px;
 }
+
 .icon2 {
     width: 30px;
     height: 30px;
     display: inline-block;
+    margin-left: -1px;
+    margin-bottom: -8px;
 }
 
 .transform:hover {
-    width: 80px;
-    height: 80px;
+    transform: scale(2);
+}
+
+footer {
+    background-image: url(backgroundfooter.jpeg);
+    width: 101.3%;
+    margin-left: 14px;
+}
+
+.paragraphadjustment {
+    margin-left: -120px;
+    display: block;
+}
+
+.paragraphadjustment2 {
+    margin-left: 50px;
+    display: block;
 }
 
 @media screen and (max-width: 750px) {
@@ -133,35 +170,111 @@ iframe {
     }
     h2 {
         color: #FFFF;
-        margin-left: -200px;
+        margin-left: -185px;
     }
     h1 {
         margin-right: 200px;
         margin-top: 0px;
     }
-    img {
-        width: 100%;
-        margin-left: -50px;
-    }
     .aboutme {
         width: 100%;
-        height: 35%;
+        height: 50%;
+        margin-left: -100px;
+    }
+    .aboutme2 {
+        width: 250%;
+        height: 50%;
+        margin-left: -300px;
     }
     .icon {
         margin-right: 50px;
     }
     iframe {
-        margin-left: 0px;
+        margin-left: -150px;
     }
     .resume {
-        margin-left: -200px;
+        margin-left: 0px;
     }
     .tab {
-        margin-left: -350px;
-        margin-top: -20px;
+        margin-left: -200px;
         display: block;
     }
     .doIT {
-        height: 6%;
+        margin-left: -150px;
+        width: 130%;
+    }
+    .projectsfooter {
+        margin-top: 400px;
+    }
+    footer {
+        background-color: #00008B;
+        margin-left: -200px;
+        width: 153.5%;
+    }
+    .paragraphadjustment {
+        margin-left: -350px;
+        display: block;
+    }
+    .wireless {
+        margin-left: -150px;
+        width: 130%;
+    }
+
+    .unix {
+        margin-left: -150px;
+        width: 130%;
+    }
+    .footerbg {
+        margin-right: 20px;
+    }
+}
+
+@media print {
+    body {
+        font-size: 10pt;
+    }
+    blockquote {
+        margin-top: -200px;
+    }
+    footer {
+        margin-bottom: -50px;
+    }
+    iframe {
+        margin-left: -10px;
+        height: 50%;
+    }
+    .aboutme {
+        margin-right: -150px;
+        height: 50%; 
+    }
+    
+    h1 {
+        color: black;
+    }
+    p {
+        color: black;
+        font-family: serif;
+    }
+    .icon {
+        display: none;
+    }
+    .icon2 {
+        display: none;
+    }
+    
+    @page {
+        margin: 1in;
+    }
+    iframe {
+        display: none;
+    }
+    
+    h2 {
+        font-size: 8px;
+    }
+    
+    footer {
+        color: black;
+        font-family: serif;
     }
 }
