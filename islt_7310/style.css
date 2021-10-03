@@ -97,6 +97,8 @@ img {
 
 iframe {
     margin-left: 350px;
+    width: 560px; 
+    height: 315px;
 }
 
 .wireless {
@@ -161,6 +163,7 @@ footer {
     display: block;
 }
 
+
 @media screen and (max-width: 750px) {
     main {
         background-color: #00008B;
@@ -191,6 +194,7 @@ footer {
     }
     iframe {
         margin-left: -150px;
+        border: 0;
     }
     .resume {
         margin-left: 0px;
@@ -202,14 +206,16 @@ footer {
     .doIT {
         margin-left: -150px;
         width: 130%;
+        height: 20%;
     }
     .projectsfooter {
         margin-top: 400px;
     }
     footer {
         background-color: #00008B;
-        margin-left: -200px;
-        width: 153.5%;
+        margin-left: -215px;
+        width: 165%;
+        margin-top: 70px;
     }
     .paragraphadjustment {
         margin-left: -350px;
@@ -218,12 +224,15 @@ footer {
     .wireless {
         margin-left: -150px;
         width: 130%;
+        height: 10%;
     }
 
     .unix {
         margin-left: -150px;
         width: 130%;
+        height: 10%;
     }
+    
     .footerbg {
         margin-right: 20px;
     }
@@ -239,21 +248,14 @@ footer {
     footer {
         margin-bottom: -50px;
     }
-    iframe {
-        margin-left: -10px;
-        height: 50%;
-    }
-    .aboutme {
-        margin-right: -150px;
-        height: 50%; 
-    }
-    
     h1 {
         color: black;
+        margin-left: -150px;
     }
     p {
         color: black;
         font-family: serif;
+        margin-left: -150px;
     }
     .icon {
         display: none;
@@ -266,6 +268,12 @@ footer {
         margin: 1in;
     }
     iframe {
+        display: none;
+    }
+    img {
+        display: none;
+    }
+    .aboutme {
         display: none;
     }
     
