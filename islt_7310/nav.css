@@ -79,6 +79,18 @@ li {
     text-align: center;
 }
 
+#hamitems ul li:hover>ul{
+    display: block;
+}
+
+#hamitems ul > li ul {
+    margin-left: 100%;
+    display: none;
+    position: absolute;
+    height: 28%;
+    margin-top: -68px;
+}
+
 #hamnav label, #hamburger {
     display: none;
 }
@@ -122,6 +134,13 @@ li {
     
     #hamnav input:checked ~ #hamitems {
         display: block;
+    }
+    #hamitems ul > li ul {
+        margin-left: 100%;
+        display: none;
+        position: absolute;
+        height: 60%;
+        margin-top: -68px;
     }
 }
 
