@@ -127,6 +127,11 @@ iframe {
     }
 }
 
+blockquote {
+    font-family: myCustomFont;
+    color: #ECF87F;
+}
+
 .icon {
     width: 30px;
     height: 30px;
@@ -197,7 +202,7 @@ footer {
         border: 0;
     }
     .resume {
-        margin-left: 0px;
+        margin-left: 110px;
     }
     .tab {
         margin-left: -200px;
@@ -235,6 +240,9 @@ footer {
     
     .footerbg {
         margin-right: 20px;
+    }
+    blockquote {
+        margin-left: -70px;
     }
 }
 
