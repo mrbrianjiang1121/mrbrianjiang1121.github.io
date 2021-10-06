@@ -39,6 +39,11 @@ tr:nth-child(even) {
     margin-bottom: -45px;
 }
 
+.centerForm {
+    margin-left: 350px;
+    margin-top: -70px;
+}
+
 .outstanding {
     height: 66%;
     width: 20%;
@@ -50,12 +55,6 @@ figcaption {
     margin-left: 850px;
     font-family: myCustomFont;
     color: #ECF87F;
-}
-
-html {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
 }
 
 @media screen and (max-width: 750px) {
@@ -82,14 +81,14 @@ html {
     }
     
     .outstanding {
-        height: 66%;
-        width: 100%;
-        margin-left: -120px;
+        height: 40%;
+        width: 80%;
+        margin-left: -10px;
         margin-top: -10px;
     }
     
     figcaption {
-        margin-left: -10px;
+        margin-left: 50px;
         font-family: myCustomFont;
         color: #ECF87F;
     }
@@ -105,13 +104,30 @@ html {
     footer {
         background-color: #00008B;
         margin-left: -215px;
-        width: 152%;
+        width: 160%;
         margin-top: 70px;
     }
     
-    html {
-        margin: 0;
-        padding: 0;
-        overflow-x: hidden;
+    .emailComposite {
+        margin-right: 30px;
+        width: 460px;
     }
+
+    .submitButton {
+        margin-left: 200px;
+    }
+    
+    .centerForm {
+        margin-left: -100px;
+        margin-top: 100px;
+    }
+}
+
+.emailComposite {
+    margin-right: 30px;
+    width: 460px;
+}
+
+.submitButton {
+    margin-left: 200px;
 }
