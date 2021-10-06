@@ -1,0 +1,186 @@
+/*
+    Ubuntu Font: https://design.ubuntu.com/font/
+*/
+
+ul {
+    list-style-type: none;
+    margin-left: -140px;
+    margin-top: 0px;
+    padding: 0;
+    width: 210px;
+    background-color: #81B622;
+    position: fixed;
+    height: 100%;
+    border: 2px solid black;
+}
+
+li a {
+    display: block;
+    color: #ECF87F;
+    margin-top: 20px;
+    text-decoration: none;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    font-family: myCustomFont;   
+}
+
+body {
+    margin: 0;
+    padding: 0;   
+}
+
+nav > ul li {
+    position: relative;
+    text-align: center;
+    top: 0;
+    color: #ECF87F;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+nav ul > li ul {
+    margin-left: 100%;
+    display: none;
+    position: absolute;
+    height: 430%;
+    margin-top: -68px;
+}
+
+nav > ul > li:hover > ul {
+    display: block;
+}
+
+nav a {
+    display: block;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+#hamnav {
+    width: 120%;
+    margin-left: -60px;
+}
+
+li {
+    display: inline;
+    text-align: center;
+}
+
+#hamitems {
+    display: flex;
+    margin-left: -30px;
+}
+
+#hamitems a {
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#hamitems ul li:hover>ul{
+    display: block;
+}
+
+#hamitems ul > li ul {
+    margin-left: 100%;
+    display: none;
+    position: absolute;
+    height: 30%;
+    margin-top: -68px;
+}
+
+#hamnav label, #hamburger {
+    display: none;
+}
+
+@media screen and (max-width: 770px) {
+    ul {
+        width: 100%;
+        height: 51%;
+        position: fixed;
+    }
+    nav ul > li ul {
+        display: none;
+        position: absolute;
+        height: 420%;
+        z-index: 1;
+        width: 100%;
+        margin-top: -1px;
+        right: 2px;
+    }
+    nav > ul > li:hover > ul {
+        display: block;
+    }
+    #hamitems a {
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+    }
+    
+    #hamnav label {
+        display: inline-block;
+        background: #81B622;
+        font-style: normal;
+        font-size: 2em;
+        margin-left: -140px;
+        border: 5px solid black;
+    }
+    
+    #hamitems {
+        display: none;
+    }
+    
+    #hamnav input:checked ~ #hamitems {
+        display: block;
+    }
+    #hamitems ul > li ul {
+        display: none;
+    }
+    #hamitems ul li:hover>ul {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 200px) {
+    li a {
+        text-align: center;
+        float: none;
+    }
+}
+
+@media screen and (max-width: 200px) {
+    li a {
+        text-align: center;
+        float: none;
+    }
+}
+
+@media print {
+    nav {
+        display: none;
+    }
+    ul {
+        display: none;
+    }
+    nav ul > li ul {
+        display: none;
+    }
+    nav > ul > li:hover > ul {
+        display: none;
+    }
+    #hamitems a {
+        display: none;
+    }
+    
+    #hamnav label {
+        display: none;
+    }
+    
+    #hamitems {
+        display: none;
+    }
+}
+
+

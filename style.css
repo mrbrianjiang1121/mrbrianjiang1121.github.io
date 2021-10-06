@@ -1,0 +1,296 @@
+/*
+    Mizzou Favicon: https://www.dragonsportsonline.com/missouri-tigers/?sort=newest&page=4
+    Division of IT: https://twitter.com/mudoit
+    Unix Photo: https://www.careersinfosecurity.com/regulator-dont-neglect-physical-security-workstations-a-11047
+    Ubuntu Font: https://design.ubuntu.com/font/
+    Footer Background: http://practicalplumbingandrooter.com/background-footer/
+*/
+h1 {
+    text-align: center;
+    color: #ECF87F;
+    font-family: myCustomFont;
+}
+
+h2 {
+    text-align: center;
+    font-family: myCustomFont;
+    color: #3D550C;
+}
+
+h3 {
+    text-align: center;
+    color: #3D550C;
+}
+
+p {
+    text-align: center;
+    display: block;
+    padding: 30px 30px;
+    margin-top: -20px;
+    color: #ECF87F;
+    font-family: myCustomFont;
+}
+
+.firstStyle::first-letter {
+    font-size: 200%;
+    color: #3D550C;
+}
+
+@font-face {
+    font-family: myCustomFont;
+    src: url(Ubuntu-Th.ttf);
+}
+
+div {
+    margin-left: 170px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.resume {
+    text-align: center;
+    font-family: myCustomFont;
+    color: #ECF87F;
+    margin-left: 550px;
+}
+
+blockquote {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.tab {
+    display: block;
+    margin-left: -150px;
+}
+
+body {
+    background: #59981A;
+}
+
+.indent {
+    text-indent: 2em;
+}
+
+div.wrapper {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-gap: 10px;
+    height: 720px;
+}
+
+img {
+    width: 50%; 
+    height: 20%;
+}
+
+.aboutme {
+    height: 45%;
+    width: 58%;
+    margin-left: 270px;
+}
+.aboutme2 {
+    height: 45%;
+    width: 58%;
+    margin-left: 150px;
+}
+
+iframe {
+    margin-left: 350px;
+    width: 560px; 
+    height: 315px;
+}
+
+.wireless {
+    margin-left: 250px;
+}
+
+.unix {
+    margin-left: 250px;
+}
+
+.doIT {
+    margin-left: 250px;
+}
+
+
+@media screen and (max-width: 750px) {
+    main {
+        background-color: #00008B;
+    }
+    body {
+        background-color: #00008B;
+    }
+    
+    h1 {
+        margin-right: -800px; 
+    }
+}
+
+blockquote {
+    font-family: myCustomFont;
+    color: #ECF87F;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-left: -1px;
+    margin-bottom: -8px;
+}
+
+.icon2 {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-left: -1px;
+    margin-bottom: -8px;
+}
+
+.transform:hover {
+    transform: scale(2);
+}
+
+footer {
+    background-image: url(backgroundfooter.jpeg);
+    width: 101.3%;
+    margin-left: 14px;
+}
+
+.paragraphadjustment {
+    margin-left: -120px;
+    display: block;
+}
+
+.paragraphadjustment2 {
+    margin-left: 50px;
+    display: block;
+}
+
+
+@media screen and (max-width: 750px) {
+    main {
+        background-color: #00008B;
+    }
+    body {
+        background-color: #00008B;
+    }
+    h2 {
+        color: #FFFF;
+        margin-left: -185px;
+    }
+    h1 {
+        margin-right: 200px;
+        margin-top: 0px;
+    }
+    .aboutme {
+        width: 100%;
+        height: 50%;
+        margin-left: -100px;
+    }
+    .aboutme2 {
+        width: 250%;
+        height: 50%;
+        margin-left: -300px;
+    }
+    .icon {
+        margin-right: 50px;
+    }
+    iframe {
+        margin-left: -150px;
+        border: 0;
+    }
+    .resume {
+        margin-left: 110px;
+    }
+    .tab {
+        margin-left: -200px;
+        display: block;
+    }
+    .doIT {
+        margin-left: -150px;
+        width: 130%;
+        height: 20%;
+    }
+    .projectsfooter {
+        margin-top: 400px;
+    }
+    footer {
+        background-color: #00008B;
+        margin-left: -215px;
+        width: 165%;
+        margin-top: 70px;
+    }
+    .paragraphadjustment {
+        margin-left: -350px;
+        display: block;
+    }
+    .wireless {
+        margin-left: -150px;
+        width: 130%;
+        height: 10%;
+    }
+
+    .unix {
+        margin-left: -150px;
+        width: 130%;
+        height: 10%;
+    }
+    
+    .footerbg {
+        margin-right: 20px;
+    }
+    blockquote {
+        margin-left: -70px;
+    }
+}
+
+@media print {
+    body {
+        font-size: 10pt;
+    }
+    blockquote {
+        margin-top: -200px;
+    }
+    footer {
+        margin-bottom: -50px;
+    }
+    h1 {
+        color: black;
+        margin-left: -150px;
+    }
+    p {
+        color: black;
+        font-family: serif;
+        margin-left: -150px;
+    }
+    .icon {
+        display: none;
+    }
+    .icon2 {
+        display: none;
+    }
+    
+    @page {
+        margin: 1in;
+    }
+    iframe {
+        display: none;
+    }
+    img {
+        display: none;
+    }
+    .aboutme {
+        display: none;
+    }
+    
+    h2 {
+        font-size: 8px;
+    }
+    
+    footer {
+        color: black;
+        font-family: serif;
+    }
+}
