@@ -80,10 +80,10 @@ figcaption {
     }
     
     .outstanding {
-        height: 40%;
-        width: 80%;
+        height: 30%;
+        width: 40%;
         margin-left: -10px;
-        margin-top: -10px;
+        margin-top: 80px;
     }
     
     figcaption {
@@ -94,16 +94,16 @@ figcaption {
     
     h2 {
         color: #FFFF;
-        margin-right: 200px;
+        margin-right: 500px;
     }
     h1 {
-        margin-right: 200px;
+        margin-right: 500px;
         margin-top: 0px;
     }
     footer {
         background-color: #00008B;
         margin-left: -215px;
-        width: 160%;
+        width: 93%;
         margin-top: 70px;
     }
     
@@ -118,6 +118,17 @@ figcaption {
     
     .centerForm {
         margin-left: -100px;
+    }
+    
+    .tableMove {
+        margin-left: -100px;
+        margin-bottom: -45px;
+    }
+    
+    html,body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
     }
 }
 
