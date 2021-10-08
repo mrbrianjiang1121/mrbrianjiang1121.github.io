@@ -13,7 +13,8 @@ h2 {
 }
 
 footer {
-    margin-bottom: -30px;
+    margin-top: 70px;
+    width: 83%;
 }
 
 table th {
@@ -21,7 +22,6 @@ table th {
     background-color: deepskyblue;
     border: 1px solid black;
     color: black;
-    padding: 5px 30px 4px 8px;
 }
 
 table td {
@@ -33,26 +33,25 @@ tr:nth-child(even) {
   background-color: #dddddd;
 }
 
-.toCenter {
-    margin-left: auto;
-    margin-right: auto;
+.tableMove {
+    margin-left: 90px;
     margin-bottom: -45px;
 }
 
 .centerForm {
-    margin-left: 350px;
-    margin-top: -70px;
+    margin-left: 100px;
+    margin-top: 70px;
 }
 
 .outstanding {
-    height: 66%;
+    height: 45%;
     width: 20%;
-    margin-left: 842px;
-    margin-top: -300px;
+    margin-left: 700px;
+    margin-top: -600px;
 }
 
 figcaption {
-    margin-left: 850px;
+    margin-left: 720px;
     font-family: myCustomFont;
     color: #ECF87F;
 }
@@ -119,12 +118,11 @@ figcaption {
     
     .centerForm {
         margin-left: -100px;
-        margin-top: 100px;
     }
 }
 
 .emailComposite {
-    margin-right: 30px;
+    margin-right: 400px;
     width: 460px;
 }
 
