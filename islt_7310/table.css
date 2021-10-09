@@ -2,6 +2,7 @@ table {
     border-collapse: collapse;
     background-color: gold;
     text-align: center;
+    width: 60%;
 }
 
 h1 {
@@ -34,7 +35,7 @@ tr:nth-child(even) {
 }
 
 .tableMove {
-    margin-left: 90px;
+    margin-left: -100px;
     margin-bottom: -45px;
 }
 
@@ -45,15 +46,15 @@ tr:nth-child(even) {
 
 .outstanding {
     height: 45%;
-    width: 20%;
-    margin-left: 700px;
+    width: 16%;
+    margin-left: 725px;
     margin-top: -600px;
 }
 
 figcaption {
     margin-left: 720px;
     font-family: myCustomFont;
-    color: #ECF87F;
+    color: gold;
 }
 
 @media screen and (max-width: 750px) {
@@ -72,6 +73,7 @@ figcaption {
 
     table td {
         border: 1px solid black;
+        padding: 20px 10px;
     }
     
     .toCenter {
@@ -121,7 +123,7 @@ figcaption {
     }
     
     .tableMove {
-        margin-left: -100px;
+        margin-left: -230px;
         margin-bottom: -45px;
     }
     

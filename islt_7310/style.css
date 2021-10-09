@@ -7,14 +7,14 @@
 */
 h1 {
     text-align: center;
-    color: #ECF87F;
+    color: gold;
     font-family: myCustomFont;
 }
 
 h2 {
     text-align: center;
     font-family: myCustomFont;
-    color: #3D550C;
+    color: #FFFF;
 }
 
 h3 {
@@ -27,13 +27,13 @@ p {
     display: block;
     padding: 30px 30px;
     margin-top: -20px;
-    color: #ECF87F;
+    color: gold;
     font-family: myCustomFont;
 }
 
 .firstStyle::first-letter {
     font-size: 200%;
-    color: #3D550C;
+    color: #FFF;
 }
 
 @font-face {
@@ -50,7 +50,7 @@ div {
 .resume {
     text-align: center;
     font-family: myCustomFont;
-    color: #ECF87F;
+    color: gold;
     margin-left: 550px;
 }
 
@@ -65,7 +65,7 @@ blockquote {
 }
 
 body {
-    background: #59981A;
+    background: darkgreen;
 }
 
 .indent {
@@ -85,9 +85,9 @@ img {
 }
 
 .aboutme {
-    height: 45%;
-    width: 58%;
-    margin-left: 270px;
+    height: 70%;
+    width: 50%;
+    margin-left: 300px;
 }
 .aboutme2 {
     height: 45%;
@@ -129,7 +129,7 @@ iframe {
 
 blockquote {
     font-family: myCustomFont;
-    color: #ECF87F;
+    color: gold;
 }
 
 .icon {
