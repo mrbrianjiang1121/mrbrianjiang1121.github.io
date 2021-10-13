@@ -84,14 +84,15 @@ figcaption {
     .outstanding {
         height: 30%;
         width: 40%;
-        margin-left: -10px;
+        margin-left: -50px;
         margin-top: 80px;
     }
     
     figcaption {
-        margin-left: 50px;
+        margin-left: -60px;
         font-family: myCustomFont;
         color: #ECF87F;
+        font-size: 24px;
     }
     
     h2 {
@@ -104,8 +105,8 @@ figcaption {
     }
     footer {
         background-color: #00008B;
-        margin-left: -215px;
-        width: 93%;
+        margin-left: -200px;
+        width: 85%;
         margin-top: 70px;
     }
     
