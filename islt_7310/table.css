@@ -127,12 +127,6 @@ figcaption {
         margin-left: -230px;
         margin-bottom: -45px;
     }
-    
-    html,body {
-        margin: 0;
-        padding: 0;
-        overflow-x: hidden;
-    }
 }
 
 .emailComposite {
